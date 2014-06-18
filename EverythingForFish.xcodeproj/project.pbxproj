@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A70EBC51951E07100C20560 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A70EBC41951E07100C20560 /* MainTableViewController.swift */; };
 		9A719F3C1950893F004AD871 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A719F3B1950893F004AD871 /* CouchbaseLite.framework */; };
 		9A73D43E1948A0900078FA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D43D1948A0900078FA05 /* AppDelegate.swift */; };
 		9A73D4401948A0900078FA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D43F1948A0900078FA05 /* ViewController.swift */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A3F4F6B1951DC2E00E6BD95 /* fish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = fish.playground; sourceTree = "<group>"; };
+		9A70EBC41951E07100C20560 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		9A719F3B1950893F004AD871 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = Vendors/CouchbaseLite.framework; sourceTree = "<group>"; };
 		9A73D4381948A0900078FA05 /* EverythingForFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverythingForFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A73D43C1948A0900078FA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				9A73D4411948A0900078FA05 /* Main.storyboard */,
 				9A73D4441948A0910078FA05 /* Images.xcassets */,
 				9A73D43B1948A0900078FA05 /* Supporting Files */,
+				9A3F4F6B1951DC2E00E6BD95 /* fish.playground */,
+				9A70EBC41951E07100C20560 /* MainTableViewController.swift */,
 			);
 			path = EverythingForFish;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A70EBC51951E07100C20560 /* MainTableViewController.swift in Sources */,
 				9A73D4401948A0900078FA05 /* ViewController.swift in Sources */,
 				9A73D43E1948A0900078FA05 /* AppDelegate.swift in Sources */,
 			);
