@@ -15,6 +15,7 @@ class KeyBoardTopBar: NSObject {
     {
     get{
         return self.view here will caust confict, just test by fish
+        efg
     }
     }
     
