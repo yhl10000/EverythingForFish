@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A55C22F19531BBF0003D4A8 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55C22E19531BBF0003D4A8 /* CommonData.swift */; };
+		9A55C23619531E7C0003D4A8 /* KeyBoardTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55C23519531E7C0003D4A8 /* KeyBoardTopBar.swift */; };
 		9A70EBC51951E07100C20560 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A70EBC41951E07100C20560 /* MainTableViewController.swift */; };
 		9A719F3C1950893F004AD871 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A719F3B1950893F004AD871 /* CouchbaseLite.framework */; };
 		9A73D43E1948A0900078FA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D43D1948A0900078FA05 /* AppDelegate.swift */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		9A3F4F6B1951DC2E00E6BD95 /* fish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = fish.playground; sourceTree = "<group>"; };
+		9A55C22E19531BBF0003D4A8 /* CommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		9A55C23519531E7C0003D4A8 /* KeyBoardTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyBoardTopBar.swift; sourceTree = "<group>"; };
 		9A70EBC41951E07100C20560 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		9A719F3B1950893F004AD871 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = Vendors/CouchbaseLite.framework; sourceTree = "<group>"; };
 		9A73D4381948A0900078FA05 /* EverythingForFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverythingForFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A55C22A19531A050003D4A8 /* common_files */ = {
+			isa = PBXGroup;
+			children = (
+				9A55C22E19531BBF0003D4A8 /* CommonData.swift */,
+				9A55C23519531E7C0003D4A8 /* KeyBoardTopBar.swift */,
+			);
+			path = common_files;
+			sourceTree = "<group>";
+		};
 		9A73D42F1948A0900078FA05 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +112,8 @@
 		9A73D43A1948A0900078FA05 /* EverythingForFish */ = {
 			isa = PBXGroup;
 			children = (
-				9A73D45C1948B2150078FA05 /* Vendors */,
+				9A55C22A19531A050003D4A8 /* common_files */,
+				9A73D45C1948B2150078FA05 /* vendors */,
 				9A73D43D1948A0900078FA05 /* AppDelegate.swift */,
 				9A73D43F1948A0900078FA05 /* ViewController.swift */,
 				9A73D4411948A0900078FA05 /* Main.storyboard */,
@@ -136,12 +150,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A73D45C1948B2150078FA05 /* Vendors */ = {
+		9A73D45C1948B2150078FA05 /* vendors */ = {
 			isa = PBXGroup;
 			children = (
 				9A719F3B1950893F004AD871 /* CouchbaseLite.framework */,
 			);
-			name = Vendors;
+			name = vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A55C22F19531BBF0003D4A8 /* CommonData.swift in Sources */,
 				9A70EBC51951E07100C20560 /* MainTableViewController.swift in Sources */,
+				9A55C23619531E7C0003D4A8 /* KeyBoardTopBar.swift in Sources */,
 				9A73D4401948A0900078FA05 /* ViewController.swift in Sources */,
 				9A73D43E1948A0900078FA05 /* AppDelegate.swift in Sources */,
 			);
@@ -369,6 +385,7 @@
 					"$(PROJECT_DIR)/EverythingForFish/Vendors",
 				);
 				INFOPLIST_FILE = EverythingForFish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,6 +404,7 @@
 					"$(PROJECT_DIR)/EverythingForFish/Vendors",
 				);
 				INFOPLIST_FILE = EverythingForFish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
