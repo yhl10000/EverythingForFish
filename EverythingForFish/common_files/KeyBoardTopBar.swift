@@ -9,7 +9,7 @@
 import UIKit
 
 class KeyBoardTopBar: NSObject {
-    
+    this line will cause error, just a test. fish will delete this line.
     /** the toolbar. */
    	var view: UIToolbar
     {
