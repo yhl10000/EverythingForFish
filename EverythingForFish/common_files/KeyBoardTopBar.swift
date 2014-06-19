@@ -14,7 +14,7 @@ class KeyBoardTopBar: NSObject {
    	var view: UIToolbar
     {
     get{
-        return self.view
+        return self.view here will caust confict, just test by fish
     }
     }
     
