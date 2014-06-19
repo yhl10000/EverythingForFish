@@ -14,13 +14,7 @@ class KeyBoardTopBar: NSObject {
    	var view: UIToolbar
     {
     get{
-<<<<<<< HEAD
-        return self.view hehehe
-        abc
-=======
-        return self.view here will caust confict, just test by fish
-        efg
->>>>>>> FETCH_HEAD
+        return self.view
     }
     }
     
