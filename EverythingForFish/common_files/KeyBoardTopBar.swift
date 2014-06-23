@@ -98,9 +98,8 @@ class KeyBoardTopBar: NSObject {
         if !bShowing {
             return;
         }
-        if !currentInputView   {
-            currentInputView?.resignFirstResponder();
-        }
+        currentInputView?.resignFirstResponder();
+        
         UIApplication.sharedApplication().sendAction("resignFirstResponder",
             to: nil,
             from: nil,
